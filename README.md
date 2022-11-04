@@ -2,9 +2,13 @@ This is a CrossMint assignment written by Marina Ganopolsky
 
 # Description: 
 
-This is a very interesting assignment and I truly enjoyed working through this. 
+This is a very interesting assignment and I truly enjoyed working through this. The basics of the implementation are as follows:
 
-Currently, the code is designed as follows:
+1. Phase 1 - simple double-for-loop creates the X in question
+2. Phase 2 
+   1. Read in the GOAL map 
+   2. Parse the goal map and determine which objects need to be created
+   3. Make API calls to the CrossMint api, .3 seconds apart, to create these objects, making sure to avoid time outs and overlaoding the server. 
 
 ## Setup
 
@@ -51,3 +55,4 @@ In the interests of brevity I wrote this quickly, but several optimizations can 
 
 ### Easter Egg
 
+A secret password was found when the map was submitted! 
